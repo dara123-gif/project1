@@ -33,3 +33,14 @@ docker push dara123-gif/web:v1
 vi dep.yaml
 kubectl apply -f dep.yaml
 kubectl get svc
+
+## Final Output
+After successfully deploying the application on Kubernetes,
+open your browser and visit:
+
+http://127.0.0.1:30080
+
+You will see your web page displayed with the message:
+“Welcome to Imagicca — It’s Colorful, Joyful Entertainment!”
+
+  ## This confirms that the Docker image and Kubernetes deployment are working perfectly! ##
